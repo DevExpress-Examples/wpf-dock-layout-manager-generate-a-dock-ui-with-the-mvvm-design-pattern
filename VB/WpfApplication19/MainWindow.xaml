@@ -1,0 +1,45 @@
+﻿<Window x:Class="WpfApplication19.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxd="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+        xmlns:local="clr-namespace:WpfApplication19"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
+    <Grid>
+        <dxd:DockLayoutManager ItemsSource="{Binding Items}">
+            <dxd:DockLayoutManager.Resources>
+                <DataTemplate x:Key="layoutPanelTemplate">
+                    <dxd:LayoutPanel Caption="{Binding DisplayName}">
+                        <dxd:LayoutPanel.ContentTemplate>
+                            <DataTemplate>
+                                <Border Background="AliceBlue">
+                                    <ContentPresenter Content="{Binding DisplayName}" />
+                                </Border>
+                            </DataTemplate>
+                        </dxd:LayoutPanel.ContentTemplate>
+                    </dxd:LayoutPanel>
+                </DataTemplate>
+                <DataTemplate x:Key="documentPanelTemplate">
+                    <dxd:DocumentPanel Caption="{Binding DisplayName}">
+                        <dxd:LayoutPanel.ContentTemplate>
+                            <DataTemplate>
+                                <Border Background="AntiqueWhite">
+                                    <ContentPresenter Content="{Binding DisplayName}" />
+                                </Border>
+                            </DataTemplate>
+                        </dxd:LayoutPanel.ContentTemplate>
+                    </dxd:DocumentPanel>
+                </DataTemplate>
+            </dxd:DockLayoutManager.Resources>
+            <dxd:DockLayoutManager.ItemTemplateSelector>
+                <local:DockItemTemplateSelector LayoutPanelTemplate="{StaticResource ResourceKey=layoutPanelTemplate}" DocumentPanelTemplate="{StaticResource ResourceKey=documentPanelTemplate}" />
+            </dxd:DockLayoutManager.ItemTemplateSelector>
+            <dxd:LayoutGroup>
+                <dxd:LayoutGroup x:Name="panelHost" />
+                <dxd:DocumentGroup x:Name="documentHost" />
+            </dxd:LayoutGroup>
+        </dxd:DockLayoutManager>
+    </Grid>
+</Window>
