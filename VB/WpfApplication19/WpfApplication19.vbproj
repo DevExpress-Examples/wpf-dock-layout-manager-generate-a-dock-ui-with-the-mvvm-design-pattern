@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -37,12 +37,12 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v15.1"></Reference>
-    <Reference Include="DevExpress.Printing.v15.1.Core"></Reference>
-    <Reference Include="DevExpress.Xpf.Core.v15.1"></Reference>
-    <Reference Include="DevExpress.Xpf.Docking.v15.1"></Reference>
-    <Reference Include="DevExpress.Xpf.Layout.v15.1.Core"></Reference>
-    <Reference Include="DevExpress.Mvvm.v15.1"></Reference>
+    <Reference Include="DevExpress.Data.v14.2"></Reference>
+    <Reference Include="DevExpress.Printing.v14.2.Core"></Reference>
+    <Reference Include="DevExpress.Xpf.Core.v14.2"></Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v14.2"></Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v14.2.Core"></Reference>
+    <Reference Include="DevExpress.Mvvm.v14.2"></Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xaml" />
