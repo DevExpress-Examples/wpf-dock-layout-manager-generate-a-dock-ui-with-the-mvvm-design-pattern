@@ -27,7 +27,7 @@ In this example, the [DockLayoutManager](https://docs.devexpress.com/WPF/DevExpr
 ## Files to Look At
 
 * [MainWindow.xaml](./CS/WpfApplication19/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication19/MainWindow.xaml))
-* **[MainWindow.xaml.cs](./CS/WpfApplication19/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication19/MainWindow.xaml.vb))**
+* [MainWindow.xaml.cs](./CS/WpfApplication19/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication19/MainWindow.xaml.vb))
 <!-- default file list end -->
 
 ## More Examples
