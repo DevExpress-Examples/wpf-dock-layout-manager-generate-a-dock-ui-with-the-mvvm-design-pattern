@@ -5,7 +5,7 @@
 
 # WPF Dock Layout Manager - Generate a Dock UI with the MVVM Design Pattern
 
-The following creates [LayoutPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) and [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) objects from a data source according to the MVVM design pattern and implements template selection.
+The following example creates [LayoutPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) and [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) objects from a data source according to the MVVM design pattern and implements template selection.
 
 <img src="https://user-images.githubusercontent.com/12169834/175355745-d50cc84d-c36e-4f4b-9db5-7b0dbd211b8a.png" width=600px/>
 
