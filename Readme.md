@@ -13,7 +13,7 @@ In this example, the **MainViewModel** class contains the **Items** collection t
 
 The **Items** collection contains the following types of items:
 
-1. **ViewModel** objects - contain data to create [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel)
+1. **ViewModel** objects — contain data to create [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel)
 
 1. **DocumentViewModel** objects - contain data to create [DocumentPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel)
 
