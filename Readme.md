@@ -15,7 +15,7 @@ The **Items** collection contains the following types of items:
 
 1. **ViewModel** objects — contain data to create [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel)
 
-1. **DocumentViewModel** objects - contain data to create [DocumentPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel)
+1. **DocumentViewModel** objects — contain data to create [DocumentPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel)
 
 The example's XAML includes two templates that render input objects as [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) or [DocumentPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel).
 
